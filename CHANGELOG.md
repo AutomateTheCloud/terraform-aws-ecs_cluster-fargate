@@ -4,6 +4,13 @@ All notable changes to this module are listed here. The format follows [Keep a C
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-10-06
+
+### Changed
+
+- The copyright year in `NOTICE` and the file headers is now 2026, the year the module was rebuilt and released as 1.0.0.
+- `CLAUDE.md`, the working rules shared by every Automate the Cloud module, adds the lessons learned while rebuilding the modules.
+
 ## [1.0.0] - 2026-10-05
 
 Initial release.
@@ -20,5 +27,6 @@ Initial release.
 - A `metadata` output with the cluster's name and ARN, and everything else the module created.
 - Offline tests, and examples for a cluster with the defaults and one with every option.
 
-[Unreleased]: https://github.com/AutomateTheCloud/terraform-aws-ecs_cluster-fargate/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/AutomateTheCloud/terraform-aws-ecs_cluster-fargate/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/AutomateTheCloud/terraform-aws-ecs_cluster-fargate/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/AutomateTheCloud/terraform-aws-ecs_cluster-fargate/releases/tag/v1.0.0
